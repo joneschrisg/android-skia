@@ -175,7 +175,8 @@ LOCAL_SRC_FILES:= \
 	src/utils/SkLayer.cpp \
 	src/utils/SkMeshUtils.cpp \
 	src/utils/SkNinePatch.cpp \
-	src/utils/SkProxyCanvas.cpp
+	src/utils/SkProxyCanvas.cpp \
+	src/views/SkTextBox.cpp
 
 ifeq ($(TARGET_ARCH),arm)
 LOCAL_SRC_FILES += \
